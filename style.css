@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    color: #9ef01a;
+    
+    
+}
+a
+{
+    color: #9ef01a;
+    text-decoration: none;
+}
+.admin-btn a{
+    color: white;
+}
+.header {
+    position: fixed; 
+    margin-top: 10px;
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 70%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+.container{
+    display: flex;
+    
+    width: 100%;
+    justify-content:space-evenly
+  
+
+}
+
+.logo {
+    color: #9ef01a;
+    font-size: 1.5rem;
+    margin: 0;
+    position: relative;
+    right: 25%;
+  
+}
+
+.admin-btn {
+    background: none;
+    border:  #fff;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 25%;
+  
+   
+}
+.mid {
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    width: 80%;margin-top: 100px;
+}
+
+.mid h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color:white
+}
+
+.mid-image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, auto);
+    gap: 20px; 
+    margin-bottom: 30px;
+    
+}
+
+.imag {
+    width: 150px;
+    height:auto;
+    object-fit: contain;
+    border: none; 
+}
+
+
+
+.main-content {
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: white;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.get-started-btn {
+    background-color: #ffc107;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.mid-center p{
+color: #7dd3fc;
+font-size: medium;
+margin-top: 60px;
+}
+.mid-center h1{
+    color:#f8fafc;
+    font-size: 40px;
+}
+.certifi{
+    display: flex;
+    text-align: left;
+    color: white;
+    
+}.certifi img{
+margin-right: 12px;
+}
+
+.Certificate{
+    display: flex;
+
+   
+}
+.left img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+   top:10px;
+   
+}
+.left{
+    margin-left: 50px;
+}
+.right img{
+    width: 60%;
+    height: 100%;
+}
+.end{
+ display: flex;
+ width: 100%;
+}
+.endleft{
+    width: 50%;
+    color: #f0f0f0;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size:x-large;
+}
+.endright{
+    width: 50%;
+    color: #ccc;
+    text-align: left;
+    margin-top: 10%;
+}
+.form-count{
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10%;
+    text-align: center;
+    width: 60%;
+    
+}
+.cover{
+    background: #c9fd02;
+    color: black;
+    width: 95%;
+    border-radius:20px;
+    padding: 5px;
+    
+    
+}
+#unplaced-count,#placed-count,#total-count{
+font-size: x-large;
+}
+footer a{
+    color: white;
+    
+}
+footer p{
+    color: #64748b;
+}
+footer{
+    margin-bottom: 2%;
+}
+
+
+
+.form-container {
+    
+   
+    padding: 50px;
+    background-color: #000;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+   
+  
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    flex: 1;
+    text-align: left;
+}
+
+input[type="text"], input[type="email"], select {
+    flex: 2;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 20px;
+    background-color: #f0f0f0;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+.card{
+   background-color: white; 
+  color: black;
+border: 2px solid black;
+margin: 10px;
+flex-wrap: wrap;
+padding: 30px;
+text-align: left;
+
+}
+.main-card{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+   
+}
+.delete-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 90%;
+    height: 15%;
+    
+}
+.cir{
+    background-color: #9ef01a;
+    width: 10%;
+    height: 60%;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 6%;
+    margin-right: 10px;
+   
+}
+.main-cir{
+    display: flex;
+   
+    padding: 10px;
+    
+
+}
+

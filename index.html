@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">LearnHub</a></h1>
+            <button class="admin-btn"> <a href="./form.html">Admin</a></button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <h1 class="title">Learn from the best, be <br>your best..</h1>
+        <p class="subtitle">Give yourself an upgrade with our inspiring online courses <br> and join a global community of learners</p>
+        <button class="get-started-btn">Get Started</button>
+    </main>
+    <div class="mid">
+        <h1>Our Placement Partners</h1>
+        <div class="mid-image">
+            <img src="./assets/img/airbnb.png" alt="" class="imag">
+            <img src="./assets/img/microsoft.png" alt="" class="imag">
+            <img src="./assets/logo/client-8.png" alt="" class="imag">
+            <img src="./assets/img/lilly.png" alt="" class="imag">
+            <img src="./assets/logo/Lifegroups.png" alt="" class="imag">
+             <img src="./assets/logo/myob.png" alt="" class="imag">
+            <img src="./assets/img/tailus.png" alt="" class="imag">
+            <img src="./assets/img/coty.png" alt="" class="imag">
+
+
+        </div>
+        <div><button class="get-started-btn">and, more <br> companies</button></div>
+    </div>
+<div class="mid-center">
+    <p>Open Source Theme and UI Components</p>
+    <h1>Geaux Astro helps you <br> craft beautiful websites <br> efficiently</h1>
+</div>
+<div class="Certificate">
+    <div class="left">
+        <div class="certifi">
+            <img src="./assets/logo/medal.svg" alt="">
+            <div>
+                <h3>Certificate Distribution</h3>
+                <p>We offer certificates to validate and recognize  <br> your achievement.</p>
+
+            </div>
+            
+            
+        </div>
+        <div class="certifi">
+            <img src="./assets/logo/thought.png" alt="">
+            <div>
+                <h3>Knowledge</h3>
+                <p>We deliver transformative knowledge that <br> empowers and inspires.</p>
+
+            </div>
+            
+            
+            
+        </div>
+        <div class="certifi">
+            <img src="./assets/logo/training.png" alt="">
+            <div>
+                <h3>Hands-on Experience</h3>
+                <p>We provide hands-on experience for real- <br>world learning. You learn best by doing.</p>
+
+            </div>
+            
+            
+        </div>
+        
+      
+    </div>
+    <div class="right">
+        <img src="./assets/img/AboutDashboard.png" alt="">
+    </div>
+</div>
+
+<div class="end">
+    <div class="endleft">
+        <h1>Empower your future <br> with cutting-edge skills <br>
+
+            New, Embrace innovation, <br> master technology, & <br> shape the digital world <br> 
+            Your journey to success <br> starts here.</h1>
+    </div>
+    <div class="endright">
+        <h3>Join our course with a proven track record of success,<br> where learning isn't just about <br> gaining skills; it's about  <br>growing them. Join us, learn with confidence, and <br>watch your skills soar.
+
+        </h3>
+
+        <div class="form-count">
+            <div class="cover1" >
+                <p class="cover">Total <br>Students</p>
+                <span id="total-count">0</span>
+            </div>
+            <div  class="cover1">
+                <p class="cover">Placed Students </p>
+                <span id="placed-count">0</span>
+
+            </div>
+            <div class="cover1">
+                
+        <p class="cover">Unplaced Students </p>
+        <span id="unplaced-count">0</span>
+
+            </div>
+        </div>
+        
+       
+    </div>
+
+
+</div>
+<div>
+    <footer>
+        <h1>LearnHub</h1>
+        <p>© 2022 Tailwind Labs Inc. All rights reserved.</p>
+        <a href="./form.html">Form</a>
+
+    </footer>
+</div>
+
+ 
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Function to update summary based on localStorage
+        function updateSummary() {
+            const placedCount = localStorage.getItem('placedCount') || 0;
+            const unplacedCount = localStorage.getItem('unplacedCount') || 0;
+            const totalCount = localStorage.getItem('totalCount') || 0;
+
+            document.getElementById('placed-count').textContent = placedCount;
+            document.getElementById('unplaced-count').textContent = unplacedCount;
+            document.getElementById('total-count').textContent = totalCount;
+        }
+
+        // Update summary on page load
+        updateSummary();
+    });
+</script>
+
+</body>
+</html>
